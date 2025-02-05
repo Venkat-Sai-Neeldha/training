@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header >Welcome to registration form</header>
+    <form>
+        <fieldset class="a">
+            <legend>details</legend>
+      <label>First Name:</label>
+      <input type="text" placeholder="enter your first name">
+      <br>
+      <br>
+
+      <label>Last Name:</label>
+      <input type="text" placeholder="enter your last name"><br>
+      <!---->
+      <br>
+      enter your email:
+      <input type="email" placeholder="enter your email">
+
+      <br><br>
+      <label for="password">enter your password:</label>
+      <input type="password" id="password" placeholder="enter your password">
+      <br>
+      <br>
+      <label for="cnfpassword">enter confirm password:</label>
+      <input type="password" id="cnfpassword" placeholder="enter confirm password"><br>
+    </fieldset>
+    <!---->
+    <br>
+    <br>
+    <fieldset>
+        <legend>personal details</legend>
+      <section>Please select your gender:</section>
+      <br>
+      <input type="radio" value="Male" name="gender" checked>
+      <label>Male:</label><br>
+      <br>
+      <input type="radio" value="Female" name="gender">
+      <label>Female</label>
+      <br>
+      <br>
+    <!---->
+      <p>enter your mobile number:</p>
+      <input type="tel" id="phone" name="phone" pattern="[6-9]{1}[0-9]{9}" required placeholder="enter mobile number" />
+      <br>
+      <br>
+      <p>enter your date of birth</p>
+      <input type="date">
+      </fieldset>
+      <br>
+      <br>
+      <p style="font-size: 20px;">what sports do you like:</p>
+      <input type="checkbox" id="sports1" value="basketball">
+      <label for="sports1">basketball</label>
+      <br>
+      <input type="checkbox" id="sports2" value="cricket">
+      <label for="sports2">cricket</label>
+      <br>
+      <input type="checkbox" id="sports3" value="football">
+      <label for="sports3">football</label><br>
+      <!---->
+      <br>
+      <label for="course">Course selected</label>
+      <input type="text" disabled value="cse">
+      <br>
+      <br>
+      <p>Insert file:</p>
+      <input type="file">
+      <br>
+      <br>
+    <div class="submit">
+      <input type="submit">
+      <input type="reset">
+    </div>
+    </form>
+    <div class="empty">
+
+    </div>
+    <footer>      
+Copyright 1999-2025 by Refsnes Data. All Rights Reserved.
+    </footer>
+</body>
+</html>
