@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>semantic tags</title>
+    <link rel="stylesheet" href="style-day3.css">
+</head>
+<body>
+    <header>
+        HTML semantic elements 
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#two">audio tags</a></li>
+            <li><a href="#one"> video tags</a></li>
+            <li><a href="#three">semantic tags</a></li>
+        </ul>
+    </nav>
+    <div class="main">
+        <article>
+            <section id="one">
+            <h2>video tags</h2>
+            <p>The video tag is used to embed video content in a document, such as a movie clip or other video streams.
+                The video tag contains one or more source tags with different video sources. The browser will choose the first source it supports.
+                The text between the video tags will only be displayed in browsers that do not support the video element.
+                    There are three supported video formats in HTML: MP4, WebM, and OGG.
+            </p>
+            </section>
+            <section id="two">
+            <h2> audio tags</h2>
+            <p>The audio tag is used to embed sound content in a document, such as music or other audio streams.
+                The audio tag contains one or more source tags with different audio sources. The browser will choose the first source it supports.
+                The text between the audio tags will only be displayed in browsers that do not support the audio element.
+
+                    There are three supported audio formats in HTML: MP3, WAV, and OGG.
+            </p> 
+            </section>
+            <section id="three">
+            <h2>
+                semantic tags
+            </h2>  
+            <p>
+            In HTML there are several semantic elements that can be used to define different parts of a web page: 
+            <p></p> 
+           article ,aside ,details, figcaption,figure, footer,header, 
+            ,main, mark, nav, section, summary, time.
+            Why Use Semantic HTML Tags?
+            <h4>Accessibility</h4>: Semantic elements make web pages more accessible. Screen readers and other assistive technologies can interpret the structure and navigate the content more efficiently.
+            <h4>SEO</h4>: Better structured data leads to better SEO. Search engines prioritize well-structured content that uses semantic elements correctly, as it’s easier to index.
+            <h4>Maintainability</h4>: Semantic HTML helps create a logically structured document, which is easier to read and maintain.
+            </p> 
+            </section>
+            <p>sample video</p>
+            <div class="mul">
+            <video height="320px" width="320px"  controls muted>
+                <source src="./SampleVideo_1280x720_5mb.mp4" type="video/mp4">
+            </video>
+            <p>sample audio </p>
+            <audio controls>
+                <source src="./sample-6s.mp3" type="audio/mp3">
+            </audio>
+        </div>
+        </article>
+        <aside>
+            <div><a href="#three">semantic tags</a></div>
+            <div><a href="#one">video tags</a></div>
+            <div><a href="#two"> audio tags</a></div>
+            </li>
+        </ul></aside>
+    </div>
+    <footer>
+        <p>Author: Venkat sai</p>
+        <p><a href="mailto:hege@example.com">hege@example.com</a>
+            all rights reserved
+        </p>
+    </footer>
+</body>
+</html>
