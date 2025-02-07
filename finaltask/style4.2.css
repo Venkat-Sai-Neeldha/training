@@ -1,0 +1,26 @@
+*{
+margin: 0px;
+padding: 0px;
+outline: none;
+}
+body{
+   background-color: bisque;
+}
+p{
+    line-height: 1.5;
+    word-spacing: 5px;
+    text-align: justify;
+}
+video{
+    padding-left: 300px;
+}
+footer{
+    height: 80px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+footer a{
+    color: aliceblue;
+    font-size: larger;
+}

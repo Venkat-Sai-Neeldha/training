@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+header{
+    /* position: fixed; */
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header .name{
+    height: 100%;
+    color: white;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+}
+ul{
+    list-style: none;
+    color: white;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img{
+    padding-top: 450px;
+    height: 50%;
+    width: 100%;
+    background-image: url("./images/img2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} 
+.p1{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.p2{
+    color: white;
+    font-size: 20px;
+}
+.head{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(222, 169, 133);
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.one img, .two img{
+    height:200px ;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 20%;
+}
+.con{
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(249, 234, 220);
+    gap: 10px;
+    padding-top: 10px;
+}
+.one,.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:transparent;
+    height: 60vh;
+    width: 40vw;
+    border: 5px double black;
+    padding-top: 5px;
+    padding-top: 20px;
+    border-radius: 15%;
+}
+.con p,.con b {
+    font-size: 30px;
+}
+.reserve{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(160, 150, 144);
+}
+td{
+    text-align: center;
+    /* border: 1px ridge black; */
+}
+table{
+    border: 1px ridge black;
+    height: 100%;
+    width: 30vw;
+    color: white;
+    font-size: 20px;
+}
+input ,option{
+    background-color: transparent;
+}
+
+footer{
+    height: 10vh;
+    background-color:black;
+    color: aliceblue;
+    text-align: center;
+    bottom: 0px;
+}
+a{
+    color:azure;
+}
+.one a,.two a{
+    font-size: 30px;
+    color: black;
+}

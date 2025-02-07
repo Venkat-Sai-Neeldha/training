@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("./images/delicious-pizza-indoors_23-2150901011.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 90px;
+    width: 100%;
+    font-size: 50px;
+    color: azure;
+    
+}
+nav #a{
+    font-size: 30px;
+    color: azure;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+table{
+    height: 60vh;
+    width: 70vw;
+}
+td{
+    border-bottom: 2px solid black;
+}
+th{
+    font-size: 25px;
+    font-style: italic;
+}
+footer{
+    height: 10vh;
+    background-color:black;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+footer a{
+    color: azure;
+    font-size: 30px;
+}
