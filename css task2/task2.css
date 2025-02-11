@@ -1,0 +1,124 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    box-sizing: border-box;
+}
+.box{
+    background-color: blanchedalmond;
+    padding: 25px 40px 10px 60px;
+    margin: 10px;
+    border: 5px dashed rgb(17, 17, 18);
+}
+header{
+    position: fixed;
+    top: 0px;
+    background-color: black;
+    color: bisque;
+    text-align: center;
+    font-size: 20px;
+    height: 50px;
+    width: 100%;
+}
+footer{
+    background-color: black;
+    color: bisque;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+
+}
+.sticky{
+    position: sticky;
+    top: 50px;
+    height: 30px;
+    text-align: center;
+    background-color: grey;
+    color: azure;
+}
+.img{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    border: 3px solid black;
+    z-index: -5;
+}
+.img img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+}
+.emp{
+    height: 50px;
+}
+.foot{
+    height: 50px;
+
+}
+#p1{
+    position: absolute; 
+    color: azure; 
+    top: 50%;
+    left: 35%;
+    font-size: 25px;
+    z-index: -5;
+}
+.pos{
+    position: relative;
+    background-color: rgb(223, 207, 187);
+    height: 40vh;
+    width: 100%;
+    z-index: -1;
+}
+.abs{
+   position:absolute;
+   background-color: cadetblue;
+   height: 50px;
+   width: 40%;
+   top: 50%;
+   z-index: 2;
+   left: 35%;
+}
+.abs2{
+    position:absolute;
+    background-color: rgb(182, 198, 229);
+    height: 180px;
+   width: 50%;
+   top: 20%;
+   left: 30%;
+   z-index: 1;
+}
+#one{
+    height: 50px;
+    width: 100%;
+    background-color:rgb(207, 204, 159);
+}
+.p2,.p3,.p4,.p5{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    height: 50px;
+    width: 150px;
+}
+.p2{
+    top: 0px;
+    left: 0px;
+}
+.p3{
+    top: 0px;
+    right: 0px;
+}
+.p4{
+    bottom: 0px;
+    left: 0px;
+}
+.p5{
+    bottom: 0px;
+    right: 0px;
+}
