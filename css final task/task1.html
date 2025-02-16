@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task</title>
+    <link rel="stylesheet" href="task1.css">
+</head>
+<body>
+    <div class="one">Task 1: style a button using transitions</div>
+    <div class="buttons">
+        <div id="#one">click me</div>
+    </div>
+
+    <div class="one">Task 2 : element moves across screen</div>
+    <div class="task2">
+        <div class="obj"></div>
+    </div>
+    <div class="one">Task 3: css variables</div>
+    <div class="task3">
+        CSS Variables
+    </div>
+    <div class="one">Task 4: toggle themes</div>
+    <div class="toggle" style="background-color: black;">
+        <button onclick="fun()">change cheme</button>
+    </div>
+    <script>
+         function fun() {
+            let br=document.getElementsByClassName("toggle")[0]
+            if(br.style.backgroundColor=="black"){
+            br.style.backgroundColor="white";}
+            else if(br.style.backgroundColor=="white"){
+                br.style.backgroundColor="black";
+            }
+        }
+
+    </script>
+</body>
+</html>
