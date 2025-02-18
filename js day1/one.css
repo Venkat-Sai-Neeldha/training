@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   background-color: blanchedalmond; 
+
+}
+.op{
+    background-color: black;
+    color: aliceblue;
+    height: 100px; 
+    width: 100px;
+}
