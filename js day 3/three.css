@@ -1,0 +1,16 @@
+.one{
+    height: 50px;
+    width: 50px;
+    background-color: aliceblue;
+    color: black;
+
+}
+body{
+    height: 40vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
