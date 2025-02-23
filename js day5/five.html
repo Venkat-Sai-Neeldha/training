@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5</title>
+    <link rel="stylesheet" href="five.css">
+</head>
+
+<body>
+    <p class="head">Task 1</p>
+    <div class="one">
+        <button onclick="fun1()">bg:black</button>
+        <button onclick="fun2()">bg:white</button>
+    </div>
+    <p class="head">Task 2</p>
+    <div class="two">
+        <label for="a">enter a city to add</label>
+        <input type="text" placeholder="enter a city" id="a">
+        <button onclick="fun3()">add</button>
+        <ul id="two"></ul>
+        <button onclick="fun4()">show</button>
+    </div>
+    <p class="head">Task 3</p>
+    <div class="three">
+        <form action="https://www.google.com/" target="_blank">
+         <input type="text" placeholder="enter name">
+         <input type="tel" placeholder="enter mobile number" pattern="[6-9]{1}[0-9]{9}">
+         <input type="email" placeholder="enter your mail adress">
+         <label for="b">enter your address</label>
+         <textarea name="addres" id="b" cols="30" rows="10" placeholder="enter your address"></textarea>
+         <label for="c">select gender</label>
+         <div class="gen">
+            <label for="c">Male</label>
+            <input type="radio" name="gen" value="M" id="c">
+            <label for="d">Female</label>
+            <input type="radio" name="gen" value="F" id="d">
+         </div>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </div>
+    <p class="head">Task 4</p>
+    <script src="five.js"></script>
+</body>
+
+</html>

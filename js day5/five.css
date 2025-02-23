@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+
+}
+.one{
+    height: 50vh;
+    border: 2px solid black;
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.two{
+    height: 50vh;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center ;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid red;
+    background-color: blanchedalmond;
+
+}
+.head{
+    height: 60px;
+    width: 100%;
+    background-color: darkgray;
+    font-size: 25px;
+    text-align: center;
+}
